@@ -159,7 +159,6 @@ function randerEmployees(arrEmp) {
         emp.RandSalary();
         text = text +
         `<p> Employee Name: ${emp.fullName} </p>
-        <p> Department: ${emp.department}</p>
           <p> Employee salary: ${emp.salary}</p><br></br>
         `
     });
