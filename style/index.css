@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+header {
+  background-color: #3f72af;
+  height: 100px;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  padding: 32px 115px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+}
+
+header nav ul a {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  /* identical to box height */
+
+  text-decoration-line: none;
+
+  color: #f9f7f7;
+}
+
+main {
+  margin: 20px 0px 0px 40px;
+}
+
+p {
+  font-size: large;
+}
+
+footer {
+  min-height: 100px;
+
+  text-align: start;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 500;
+  background-color: #112d4e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 872px;
+}
+footer p {
+  color: #dbe2ef;
+  font-weight: 300;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 20px;
+}
+
+/* <-----------------------class class class class class class class----------------------->  */
+
+/* <-----------------------Opacity Opacity Opacity Opacity Opacity Opacity ----------------------->  */
+
+/* <-----------------------Spacing Spacing Spacing Spacing Spacing Spacing----------------------->  */
